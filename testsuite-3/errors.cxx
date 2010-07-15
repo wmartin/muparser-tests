@@ -21,46 +21,139 @@ public:
     // falsche Eingaben, Fehlermeldungen erwartet
     void testParserErrors () {
     	mu::Parser parser;
-    	
-    	// Multiplikationsoperator: 'x' statt '*'
-        // CPPUNIT_ASSERT_THROW (parser.SetExpr("2x3"),mu::ParserError);
-        
-        // String im arithm. Ausdruck
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("value+2"),mu::ParserError);
-        
-        // trig. Fkt. ohne Argument
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("cos()"),mu::ParserError);
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("sin()"),mu::ParserError);
-        
-        // unvollständige trig. Fkt.  
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("1+cos("),mu::ParserError);
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("1+sin("),mu::ParserError); 
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("3*cos(2"),mu::ParserError);
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("3*sin(2"),mu::ParserError);
-        
-        // Dezimalbruch: ',' statt '.'
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("2,5+1"),mu::ParserError);
+    	double res;
 
-        // fehlende Klammer
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("4*(2+3"),mu::ParserError);
-        
-        // String als Winkel
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("2*sin(alpha)"),mu::ParserError);
-        
-        // fehlender arithm. Operator
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("sin(2)cos(3)"),mu::ParserError);
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("2sin(2)"),mu::ParserError);
-        
-        // doppelter arithm. Operator
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("sin(2)**cos(3)"),mu::ParserError); 
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("62//2"),mu::ParserError);
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("2--sin(2)"),mu::ParserError);
-        
-        // leerer Ausdruck
-        CPPUNIT_ASSERT_THROW (parser.SetExpr(""),mu::ParserError);
-        
-        // falscher Funktionsname
-        CPPUNIT_ASSERT_THROW (parser.SetExpr("coss(1)"),mu::ParserError);
+    	try {
+    		// Multiplikationsoperator: 'x' statt '*'
+    		parser.SetExpr("2x3");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		// String im arithm. Ausdruck
+    		parser.SetExpr("value+2");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		// trig. Fkt. ohne Argument
+    		parser.SetExpr("cos()");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+
+    	try {
+    		parser.SetExpr("sin()");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+
+    	try {
+    		// unvollständige trig. Fkt.  
+    		parser.SetExpr("1+cos(");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		parser.SetExpr("1+sin(");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		parser.SetExpr("3*cos(2");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		parser.SetExpr("3*sin(2");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		// Dezimalbruch: ',' statt '.'
+    		parser.SetExpr("2,5+1");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		// fehlende Klammer
+    		parser.SetExpr("4*(2+3");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		// String als Winkel
+    		parser.SetExpr("2*sin(alpha)");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		// fehlender arithm. Operator
+    		parser.SetExpr("sin(2)cos(3)");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		parser.SetExpr("2sin(2)");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		// doppelter arithm. Operator
+    		parser.SetExpr("sin(2)**cos(3)"); 
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		parser.SetExpr("62//2");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		// leerer Ausdruck
+    		parser.SetExpr("");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
+
+    	try {
+    		// falscher Funktionsname
+    		parser.SetExpr("coss(1)");
+    		res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
     } 
     
     // falsche Anzahl von Parametern    
@@ -70,13 +163,19 @@ public:
 
         parser.DefineFun ("mult", &_binaryFunc);
  
-        parser.SetExpr ("mult(2, 2, 2)");
-        res = parser.Eval ();
-        CPPUNIT_ASSERT_THROW (res, mu::ParserError);
+    	try {
+            parser.SetExpr ("mult(2, 2, 2)");
+            res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
         
-        parser.SetExpr ("mult(2)");
-        res = parser.Eval ();
-        CPPUNIT_ASSERT_THROW (res, mu::ParserError);
+    	try {
+            parser.SetExpr ("mult(2)");
+            res = parser.Eval ();
+    		CPPUNIT_ASSERT (false);
+    	}
+    	catch (mu::Parser::exception_type &e) { }
     }
 };
 
