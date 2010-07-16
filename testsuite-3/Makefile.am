@@ -3,7 +3,8 @@ TESTS = \
 	test-constants\
 	test-userDefinitions\
 	test-errors\
-	test-priority
+	test-priority\
+	test-ClearUserDefinitions
 
 noinst_PROGRAMS = $(TESTS)
 
@@ -33,6 +34,10 @@ test_errors_LDADD = $(TESTS_LDADD)
 test_priority_SOURCES = priority.cxx
 test_priority_CXXFLAGS = $(TESTS_CXXFLAGS)
 test_priority_LDADD = $(TESTS_LDADD)
+
+test_ClearUserDefinitions_SOURCES = ClearUserDefinitions.cxx
+test_ClearUserDefinitions_CXXFLAGS = $(TESTS_CXXFLAGS)
+test_ClearUserDefinitions_LDADD = $(TESTS_LDADD)
 
 include $(top_srcdir)/tests.mak
 
