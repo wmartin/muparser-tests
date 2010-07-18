@@ -1110,7 +1110,7 @@ namespace mu
                 if (stArgCount.empty())
                   Error(ecUNEXPECTED_ARG_SEP, m_pTokenReader->GetPos());
 
-                ++stArgCount.top();
+                stArgCount.top();
                 // fall through...
 
         case cmEND:
