@@ -272,7 +272,7 @@ namespace mu
   void ParserBase::CheckName(const string_type &a_sName,
                             const string_type &a_szCharSet) const
   {
-    if ( !a_sName.length() ||
+    if ( a_sName.length() ||
         (a_sName.find_first_not_of(a_szCharSet)!=string_type::npos) ||
         (a_sName[0]>='0' && a_sName[0]<='9'))
     {
