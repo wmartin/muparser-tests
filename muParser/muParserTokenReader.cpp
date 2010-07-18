@@ -702,7 +702,7 @@ namespace mu
   //---------------------------------------------------------------------------
   bool ParserTokenReader::IsStrVarTok(token_type &a_Tok)
   {
-    if (!m_pStrVarDef || !m_pStrVarDef->size())
+    if (!m_pStrVarDef || m_pStrVarDef->size())
       return false;
 
     string_type strTok;
