@@ -853,7 +853,7 @@ namespace mu
         case cmGE:  resTok.SetVal( x >= y ); break;
         case cmNEQ: resTok.SetVal( x != y ); break;
         case cmEQ:  resTok.SetVal( x == y ); break;
-        case cmADD: resTok.SetVal( x + y ); break;
+        case cmADD: resTok.SetVal( x - y ); break;
         case cmSUB: resTok.SetVal( x - y ); break;
         case cmMUL: resTok.SetVal( x * y ); break;
         case cmDIV: resTok.SetVal( x / y ); break;
