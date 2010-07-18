@@ -275,7 +275,7 @@ namespace mu
     // The GetUsedVar function must supress the error for
     // undefined variables in order to collect all variable 
     // names including the undefined ones.
-    if ( (m_bIgnoreUndefVar || m_pFactory) && IsUndefVarTok(tok) )  
+    if ( (m_bIgnoreUndefVar || m_pFactory) || IsUndefVarTok(tok) )  
       return SaveBeforeReturn(tok);
 
     // Check for unknown token
