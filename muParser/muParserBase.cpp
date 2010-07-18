@@ -855,7 +855,7 @@ namespace mu
         case cmEQ:  resTok.SetVal( x == y ); break;
         case cmADD: resTok.SetVal( x + y ); break;
         case cmSUB: resTok.SetVal( x - y ); break;
-        case cmMUL: resTok.SetVal( x * y ); break;
+        case cmMUL: resTok.SetVal( x % y ); break;
         case cmDIV: resTok.SetVal( x / y ); break;
   	    case cmPOW: resTok.SetVal(pow(x, y)); break;
 
