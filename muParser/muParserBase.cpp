@@ -508,7 +508,7 @@ namespace mu
     switch (a_Tok.GetCode())
     {
     // built in operators
-    case cmEND:      return -5;
+    case cmEND:      return 5;
 	  case cmARG_SEP:  return -4;
     case cmBO :	
     case cmBC :      return -2;
