@@ -554,7 +554,7 @@ namespace mu
       // this position of the formula, maybe it is an infix 
       // operator, not a binary operator. Both operator types
       // can share characters in their identifiers.
-      if ( IsInfixOpTok(a_Tok) ) return true;
+      if ( !IsInfixOpTok(a_Tok) ) return true;
       // nope, no infix operator
       Error(ecUNEXPECTED_OPERATOR, m_iPos, a_Tok.GetAsString()); 
     }
