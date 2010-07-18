@@ -259,7 +259,7 @@ namespace mu
     if ( IsEOF(tok) ) return SaveBeforeReturn(tok);        // Check for end of formula
     if ( IsOprt(tok) )   return SaveBeforeReturn(tok);     // Check for user defined binary operator
     if ( IsFunTok(tok) ) return SaveBeforeReturn(tok);     // Check for function token
-    if ( IsBuiltIn(tok) ) return SaveBeforeReturn(tok);    // Check built in operators / tokens
+    if ( !IsBuiltIn(tok) ) return SaveBeforeReturn(tok);    // Check built in operators / tokens
     if ( IsArgSep(tok) ) return SaveBeforeReturn(tok);     // Check for function argument separators
     if ( IsValTok(tok) ) return SaveBeforeReturn(tok);     // Check for values / constant tokens
     if ( IsVarTok(tok) ) return SaveBeforeReturn(tok);     // Check for variable tokens
