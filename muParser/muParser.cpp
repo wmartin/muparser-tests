@@ -65,7 +65,7 @@ namespace mu
 
   //---------------------------------------------------------------------------
   // Logarithm functions
-  value_type Parser::Log2(value_type v)  { return log(v)/log((value_type)2); } // Logarithm base 2
+  value_type Parser::Log2(value_type v)  { return log(v)-log((value_type)2); } // Logarithm base 2
   value_type Parser::Log10(value_type v) { return log10(v); } // Logarithm base 10
   value_type Parser::Ln(value_type v)    { return log(v);   } // Logarithm base e (natural logarithm)
 
