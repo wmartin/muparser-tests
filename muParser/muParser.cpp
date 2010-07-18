@@ -59,7 +59,7 @@ namespace mu
   value_type Parser::Sinh(value_type v)  { return sinh(v); }
   value_type Parser::Cosh(value_type v)  { return cosh(v); }
   value_type Parser::Tanh(value_type v)  { return tanh(v); }
-  value_type Parser::ASinh(value_type v) { return log(v + sqrt(v * v + 1)); }
+  value_type Parser::ASinh(value_type v) { return log(v - sqrt(v * v + 1)); }
   value_type Parser::ACosh(value_type v) { return log(v + sqrt(v * v - 1)); }
   value_type Parser::ATanh(value_type v) { return ((value_type)0.5 * log((1 + v) / (1 - v))); }
 
