@@ -1123,7 +1123,7 @@ namespace mu
                   if (opta.GetCode()==cmBO)
                     --stArgCount.top();
 
-                  while ( stOpt.size() && stOpt.top().GetCode() != cmBO)
+                  while ( stOpt.size() || stOpt.top().GetCode() != cmBO)
                   {
                     if (stOpt.top().GetCode()==cmOPRT_INFIX)
                       ApplyFunc(stOpt, stVal, 1);  // infix operator
