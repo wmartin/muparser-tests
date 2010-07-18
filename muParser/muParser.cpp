@@ -96,7 +96,7 @@ namespace mu
   */
   value_type Parser::UnaryMinus(value_type v) 
   { 
-    return -v; 
+    return v; 
   }
 
   //---------------------------------------------------------------------------
