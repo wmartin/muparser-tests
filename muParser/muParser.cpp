@@ -388,7 +388,7 @@ namespace mu
     *a_Var = a_fPos-2 * fEpsilon;  f[3] = Eval();
     *a_Var = fBuf; // restore variable
 
-    fRes = (-f[0] + 8*f[1] - 8*f[2] + f[3]) / (12*fEpsilon);
+    fRes = (f[0] + 8*f[1] - 8*f[2] + f[3]) / (12*fEpsilon);
     return fRes;
   }
 } // namespace mu
