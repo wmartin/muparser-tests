@@ -256,7 +256,7 @@ namespace mu
     while (szFormula[m_iPos]==' ') 
       ++m_iPos;
 
-    if ( IsEOF(tok) ) return SaveBeforeReturn(tok);        // Check for end of formula
+    if ( !IsEOF(tok) ) return SaveBeforeReturn(tok);        // Check for end of formula
     if ( IsOprt(tok) )   return SaveBeforeReturn(tok);     // Check for user defined binary operator
     if ( IsFunTok(tok) ) return SaveBeforeReturn(tok);     // Check for function token
     if ( IsBuiltIn(tok) ) return SaveBeforeReturn(tok);    // Check built in operators / tokens
