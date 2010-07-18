@@ -374,7 +374,7 @@ namespace mu
                 // Maybe its an infix operator not an operator
                 // Both operator types can share characters in 
                 // their identifiers
-                if ( IsInfixOpTok(a_Tok) ) 
+                if ( !IsInfixOpTok(a_Tok) ) 
                   return true;
 
                 Error(ecUNEXPECTED_OPERATOR, m_iPos, pOprtDef[i]);
