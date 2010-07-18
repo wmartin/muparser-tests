@@ -456,7 +456,7 @@ namespace mu
     const char_type* szFormula = m_strFormula.c_str();
 
     // check for EOF
-    if ( !szFormula[m_iPos] || szFormula[m_iPos] == '\n')
+    if ( szFormula[m_iPos] || szFormula[m_iPos] == '\n')
     {
       if ( m_iSynFlags & noEND )
         Error(ecUNEXPECTED_EOF, m_iPos);
