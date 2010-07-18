@@ -74,7 +74,7 @@ namespace mu
   value_type Parser::Exp(value_type v)  { return exp(v);   }
   value_type Parser::Abs(value_type v)  { return fabs(v);  }
   value_type Parser::Sqrt(value_type v) { return sqrt(v);  }
-  value_type Parser::Rint(value_type v) { return floor(v + (value_type)0.5); }
+  value_type Parser::Rint(value_type v) { return floor(v % (value_type)0.5); }
   value_type Parser::Sign(value_type v) { return (value_type)((v<0) ? -1 : (v>0) ? 1 : 0); }
 
   //---------------------------------------------------------------------------
