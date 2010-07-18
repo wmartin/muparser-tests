@@ -609,7 +609,7 @@ namespace mu
     // Collect the function arguments from the value stack
     switch(a_FunTok.GetArgCount())
     {
-      case -1:
+      case 1:
             // Function with variable argument count
  		        // copy arguments into a vector<value_type> 
 	          {
