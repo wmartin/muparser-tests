@@ -1,0 +1,492 @@
+test_wmartin-wmartin.o test_wmartin-wmartin.o: wmartin.cxx \
+  C:/Programme/MSysGit/local/include/cppunit/ui/text/TestRunner.h \
+  C:/Programme/MSysGit/local/include/cppunit/ui/text/TextTestRunner.h \
+  C:/Programme/MSysGit/local/include/cppunit/Portability.h \
+  C:/Programme/MSysGit/local/include/cppunit/config-auto.h \
+  C:/Programme/MSysGit/local/include/cppunit/config/CppUnitApi.h \
+  C:/Programme/MSysGit/local/include/cppunit/config/SelectDllLoader.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/string \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/c++config.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/os_defines.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stringfwd.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/char_traits.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cstring \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cstddef \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/include/stddef.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/string.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/_mingw.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_algobase.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/climits \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/limits.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cstdlib \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/stdlib.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/new \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/exception \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/iosfwd \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/c++locale.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/clocale \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/locale.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cstdio \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/stdio.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/include/stdarg.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/sys/types.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/c++io.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/gthr.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/gthr-default.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/errno.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cctype \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/ctype.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/postypes.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cwchar \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/ctime \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/time.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/wchar.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/wctype.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/stdint.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/functexcept.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/exception_defines.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_pair.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/type_traits.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_iterator_base_types.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_iterator_base_funcs.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/concept_check.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_iterator.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/debug/debug.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cassert \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/assert.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/memory \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/allocator.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/c++allocator.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/ext/new_allocator.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_construct.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_uninitialized.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_raw_storage_iter.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/limits \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_function.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/basic_string.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/atomicity.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/atomic_word.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/algorithm \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_algo.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_heap.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_tempbuf.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/basic_string.tcc \
+  C:/Programme/MSysGit/local/include/cppunit/TestRunner.h \
+  C:/Programme/MSysGit/local/include/cppunit/TestSuite.h \
+  C:/Programme/MSysGit/local/include/cppunit/TestComposite.h \
+  C:/Programme/MSysGit/local/include/cppunit/Test.h \
+  C:/Programme/MSysGit/local/include/cppunit/portability/CppUnitVector.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/vector \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_vector.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_bvector.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/vector.tcc \
+  C:/Programme/MSysGit/local/include/cppunit/extensions/TestFactoryRegistry.h \
+  C:/Programme/MSysGit/local/include/cppunit/portability/CppUnitSet.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/functional \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/set \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_tree.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/cpp_type_traits.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_set.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_multiset.h \
+  C:/Programme/MSysGit/local/include/cppunit/extensions/TestFactory.h \
+  C:/Programme/MSysGit/local/include/cppunit/extensions/HelperMacros.h \
+  C:/Programme/MSysGit/local/include/cppunit/TestCaller.h \
+  C:/Programme/MSysGit/local/include/cppunit/Exception.h \
+  C:/Programme/MSysGit/local/include/cppunit/Message.h \
+  C:/Programme/MSysGit/local/include/cppunit/portability/CppUnitDeque.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/deque \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_deque.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/deque.tcc \
+  C:/Programme/MSysGit/local/include/cppunit/SourceLine.h \
+  C:/Programme/MSysGit/local/include/cppunit/TestCase.h \
+  C:/Programme/MSysGit/local/include/cppunit/TestLeaf.h \
+  C:/Programme/MSysGit/local/include/cppunit/TestAssert.h \
+  C:/Programme/MSysGit/local/include/cppunit/Asserter.h \
+  C:/Programme/MSysGit/local/include/cppunit/AdditionalMessage.h \
+  C:/Programme/MSysGit/local/include/cppunit/portability/Stream.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/sstream \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/istream \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/ios \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/localefwd.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/ios_base.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/locale_classes.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/streambuf \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/streambuf.tcc \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/basic_ios.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/streambuf_iterator.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/locale_facets.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cwctype \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/ctype_base.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/ctype_inline.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/codecvt.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/time_members.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/messages_members.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/basic_ios.tcc \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/istream.tcc \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/locale \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/locale_facets.tcc \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/typeinfo \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/ostream \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/ostream.tcc \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/sstream.tcc \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/fstream \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/basic_file.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/fstream.tcc \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/iostream \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/float.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/include/float.h \
+  C:/Programme/MSysGit/local/include/cppunit/TestFixture.h \
+  C:/Programme/MSysGit/local/include/cppunit/extensions/TypeInfoHelper.h \
+  C:/Programme/MSysGit/local/include/cppunit/extensions/AutoRegisterSuite.h \
+  C:/Programme/MSysGit/local/include/cppunit/extensions/TestSuiteFactory.h \
+  C:/Programme/MSysGit/local/include/cppunit/extensions/ExceptionTestCaseDecorator.h \
+  C:/Programme/MSysGit/local/include/cppunit/extensions/TestCaseDecorator.h \
+  C:/Programme/MSysGit/local/include/cppunit/extensions/TestFixtureFactory.h \
+  C:/Programme/MSysGit/local/include/cppunit/extensions/TestNamer.h \
+  C:/Programme/MSysGit/local/include/cppunit/extensions/TestSuiteBuilderContext.h \
+  C:/Programme/MSysGit/local/include/cppunit/portability/CppUnitMap.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/map \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_map.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_multimap.h \
+  ../muParser/muParser.h ../muParser/muParserBase.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cmath \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/math.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/cmath.tcc \
+  ../muParser/muParserDef.h ../muParser/muParserFixes.h \
+  ../muParser/muParserStack.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/stack \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_stack.h \
+  ../muParser/muParserError.h \
+  c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/stdexcept \
+  ../muParser/muParserToken.h ../muParser/muParserCallback.h \
+  ../muParser/muParserTokenReader.h ../muParser/muParserBytecode.h
+
+C:/Programme/MSysGit/local/include/cppunit/ui/text/TestRunner.h:
+
+C:/Programme/MSysGit/local/include/cppunit/ui/text/TextTestRunner.h:
+
+C:/Programme/MSysGit/local/include/cppunit/Portability.h:
+
+C:/Programme/MSysGit/local/include/cppunit/config-auto.h:
+
+C:/Programme/MSysGit/local/include/cppunit/config/CppUnitApi.h:
+
+C:/Programme/MSysGit/local/include/cppunit/config/SelectDllLoader.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/string:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/c++config.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/os_defines.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stringfwd.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/char_traits.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cstring:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cstddef:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/include/stddef.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/string.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/_mingw.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_algobase.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/climits:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/limits.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cstdlib:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/stdlib.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/new:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/exception:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/iosfwd:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/c++locale.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/clocale:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/locale.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cstdio:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/stdio.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/include/stdarg.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/sys/types.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/c++io.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/gthr.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/gthr-default.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/errno.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cctype:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/ctype.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/postypes.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cwchar:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/ctime:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/time.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/wchar.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/wctype.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/stdint.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/functexcept.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/exception_defines.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_pair.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/type_traits.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_iterator_base_types.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_iterator_base_funcs.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/concept_check.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_iterator.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/debug/debug.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cassert:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/assert.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/memory:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/allocator.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/c++allocator.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/ext/new_allocator.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_construct.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_uninitialized.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_raw_storage_iter.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/limits:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_function.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/basic_string.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/atomicity.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/atomic_word.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/algorithm:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_algo.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_heap.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_tempbuf.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/basic_string.tcc:
+
+C:/Programme/MSysGit/local/include/cppunit/TestRunner.h:
+
+C:/Programme/MSysGit/local/include/cppunit/TestSuite.h:
+
+C:/Programme/MSysGit/local/include/cppunit/TestComposite.h:
+
+C:/Programme/MSysGit/local/include/cppunit/Test.h:
+
+C:/Programme/MSysGit/local/include/cppunit/portability/CppUnitVector.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/vector:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_vector.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_bvector.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/vector.tcc:
+
+C:/Programme/MSysGit/local/include/cppunit/extensions/TestFactoryRegistry.h:
+
+C:/Programme/MSysGit/local/include/cppunit/portability/CppUnitSet.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/functional:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/set:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_tree.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/cpp_type_traits.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_set.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_multiset.h:
+
+C:/Programme/MSysGit/local/include/cppunit/extensions/TestFactory.h:
+
+C:/Programme/MSysGit/local/include/cppunit/extensions/HelperMacros.h:
+
+C:/Programme/MSysGit/local/include/cppunit/TestCaller.h:
+
+C:/Programme/MSysGit/local/include/cppunit/Exception.h:
+
+C:/Programme/MSysGit/local/include/cppunit/Message.h:
+
+C:/Programme/MSysGit/local/include/cppunit/portability/CppUnitDeque.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/deque:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_deque.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/deque.tcc:
+
+C:/Programme/MSysGit/local/include/cppunit/SourceLine.h:
+
+C:/Programme/MSysGit/local/include/cppunit/TestCase.h:
+
+C:/Programme/MSysGit/local/include/cppunit/TestLeaf.h:
+
+C:/Programme/MSysGit/local/include/cppunit/TestAssert.h:
+
+C:/Programme/MSysGit/local/include/cppunit/Asserter.h:
+
+C:/Programme/MSysGit/local/include/cppunit/AdditionalMessage.h:
+
+C:/Programme/MSysGit/local/include/cppunit/portability/Stream.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/sstream:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/istream:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/ios:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/localefwd.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/ios_base.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/locale_classes.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/streambuf:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/streambuf.tcc:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/basic_ios.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/streambuf_iterator.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/locale_facets.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cwctype:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/ctype_base.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/ctype_inline.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/codecvt.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/time_members.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/messages_members.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/basic_ios.tcc:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/istream.tcc:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/locale:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/locale_facets.tcc:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/typeinfo:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/ostream:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/ostream.tcc:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/sstream.tcc:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/fstream:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32/bits/basic_file.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/fstream.tcc:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/iostream:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/float.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/include/float.h:
+
+C:/Programme/MSysGit/local/include/cppunit/TestFixture.h:
+
+C:/Programme/MSysGit/local/include/cppunit/extensions/TypeInfoHelper.h:
+
+C:/Programme/MSysGit/local/include/cppunit/extensions/AutoRegisterSuite.h:
+
+C:/Programme/MSysGit/local/include/cppunit/extensions/TestSuiteFactory.h:
+
+C:/Programme/MSysGit/local/include/cppunit/extensions/ExceptionTestCaseDecorator.h:
+
+C:/Programme/MSysGit/local/include/cppunit/extensions/TestCaseDecorator.h:
+
+C:/Programme/MSysGit/local/include/cppunit/extensions/TestFixtureFactory.h:
+
+C:/Programme/MSysGit/local/include/cppunit/extensions/TestNamer.h:
+
+C:/Programme/MSysGit/local/include/cppunit/extensions/TestSuiteBuilderContext.h:
+
+C:/Programme/MSysGit/local/include/cppunit/portability/CppUnitMap.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/map:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_map.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_multimap.h:
+
+../muParser/muParser.h:
+
+../muParser/muParserBase.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/cmath:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/math.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/cmath.tcc:
+
+../muParser/muParserDef.h:
+
+../muParser/muParserFixes.h:
+
+../muParser/muParserStack.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/stack:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/bits/stl_stack.h:
+
+../muParser/muParserError.h:
+
+c:/Programme/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/stdexcept:
+
+../muParser/muParserToken.h:
+
+../muParser/muParserCallback.h:
+
+../muParser/muParserTokenReader.h:
+
+../muParser/muParserBytecode.h:

@@ -81,6 +81,7 @@ AC_CONFIG_FILES([
   testsuite-1/Makefile
   testsuite-2/Makefile
   testsuite-3/Makefile
+  testsuite-4/Makefile
   coverage/Makefile
 ])
 

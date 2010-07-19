@@ -1,16 +1,18 @@
 ACLOCAL_AMFLAGS = -I m4
 
-SUBDIRS = muParser testsuite-1 testsuite-2 testsuite-3 coverage
+SUBDIRS = muParser testsuite-1 testsuite-2 testsuite-3 testsuite-4 coverage
 
 check: all
 	$(MAKE) -C testsuite-1 check
 	$(MAKE) -C testsuite-2 check
 	$(MAKE) -C testsuite-3 check
+	$(MAKE) -C testsuite-4 check
 
 check-valgrind: all
 	$(MAKE) -C testsuite-1 check-valgrind
 	$(MAKE) -C testsuite-2 check-valgrind
 	$(MAKE) -C testsuite-3 check-valgrind
+	$(MAKE) -C testsuite-4 check-valgrind
 
 if ENABLE_COVERAGE
 %.coverage: all
